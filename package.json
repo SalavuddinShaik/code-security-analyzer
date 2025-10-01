@@ -20,7 +20,22 @@
         "command": "code-security-analyzer.scanFile",
         "title": "Scan for Security Vulnerabilities"
       }
-    ]
+    ],
+    "configuration": {
+      "title": "Code Security Analyzer",
+      "properties": {
+        "codeSecurityAnalyzer.openaiApiKey": {
+          "type": "string",
+          "default": "",
+          "description": "OpenAI API key for AI-powered explanations"
+        },
+        "codeSecurityAnalyzer.enableAI": {
+          "type": "boolean",
+          "default": true,
+          "description": "Enable AI-powered explanations"
+        }
+      }
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
