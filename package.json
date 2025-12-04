@@ -19,6 +19,14 @@
       {
         "command": "code-security-analyzer.scanFile",
         "title": "Scan for Security Vulnerabilities"
+      },
+      {
+        "command": "code-security-analyzer.showDashboard",
+        "title": "Show Security Dashboard"
+      },
+      {
+        "command": "code-security-analyzer.exportReport",
+        "title": "Export Security Report (HTML)"
       }
     ],
     "configuration": {
